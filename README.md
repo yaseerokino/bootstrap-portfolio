@@ -45,7 +45,7 @@ git clone https://github.com/yaseerokino/bootstrap-portfolio.git
 # Author 2
 
 - GitHub: [@DannieMo](https://github.com/DannieMo)
-- LinkedIn:[Daniel Owiri]https://www.linkedin.com/in/daniel-majesty-owiri-85175616b/
+- LinkedIn:[Daniel Owiri](https://www.linkedin.com/in/daniel-majesty-owiri-85175616b/)
 
 ## 👊🏾 Show your support
 
