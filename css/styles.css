@@ -20,6 +20,15 @@ body {
   font-family: "Poppins", sans-serif !important;
 }
 
+header {
+  padding: 14px 143px;
+  background-color: var(--neutral-0);
+}
+
+.light-back {
+  background-color: var(--neutral-0) !important;
+}
+
 .headline {
   background-color: var(--neutral-0);
   background-repeat: no-repeat;
@@ -30,12 +39,12 @@ body {
   border-bottom-left-radius: 88px;
 }
 
-.headline h1 {
-  color: var(--neutral-800);
+.head {
+  color: var(--neutral-800) !important;
 }
 
-.headline p {
-  color: var(--neutral-600);
+.para {
+  color: var(--neutral-600) !important;
 }
 
 h6 {
@@ -46,3 +55,107 @@ h6 {
   color: #505f79;
 }
 
+.works {
+  padding: 114px 142px;
+}
+
+.work-item {
+  background-color: var(--neutral-0);
+}
+
+.work-item img {
+  max-width: 100%;
+}
+
+.counter {
+  width: 8px;
+  height: 8px;
+  background-color: var(--neutral-50);
+  border-radius: 50%;
+}
+
+.badge-back {
+  background-color: var(--primary-50) !important;
+  color: var(--primary-400) !important;
+}
+
+.btn-back {
+  border-color: var(--primary-400) !important;
+  color: var(--primary-400) !important;
+  background-color: transparent !important;
+}
+
+.border-rad {
+  border-radius: 8px !important;
+}
+
+.btn-back:hover {
+  background-color: var(--primary-400) !important;
+  color: var(--neutral-0) !important;
+}
+
+@media (max-width: 991.98px) {
+  header {
+    padding: 14px 24px;
+  }
+  .headline {
+    background-size: cover;
+    padding: 114px 24px 136px 24px;
+  }
+
+  .works {
+    padding: 114px 24px;
+  }
+
+  .work-item div {
+    padding: 0 !important;
+    order: 2 !important;
+  }
+
+  .work-item img {
+    order: 1 !important;
+  }
+}
+
+@media (max-width: 1399.98px) {
+  .work-item div {
+    order: 2 !important;
+  }
+
+  .work-item img {
+    order: 1 !important;
+  }
+}
+
+/* About section */
+.about {
+  padding: 114px 24px;
+  background-color: var(--neutral-0);
+  border-top-right-radius: 90px;
+  
+}
+.about {
+  width: 100%;
+  padding: 225px 260px 225px 260px;
+  background-color: #fff;
+  /* margin-right: auto;
+  margin-left: auto; */
+}
+
+.about h2 {
+  font-size: 40px;
+  line-height: 52px;
+}
+.about p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.about .container-fluid {
+  width: 70%;
+}
+
+summary {
+  font-size: 20px;
+  line-height: 24px;
+}
