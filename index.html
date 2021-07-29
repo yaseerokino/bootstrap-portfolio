@@ -164,10 +164,8 @@
 
         </div>
       </section>
-      <section class="about">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-lg-6 ps-3">
+      <section class="about d-flex">
+            <div class="flex-grow-1 pb-5 pe-5">
               <h2 class="pb-2 fw-bolder h2">About <br> Myself</h2>
               <p class=" pb-2">
                 Hello I’m a software developer! I can help you build a product , feature 
@@ -194,33 +192,58 @@
               </ul>
               <button type="button" class="btn btn-outline-primary btn-lg mt-3">Get my resume</button>     
             </div>
-            <div class="col-lg-6 ps-5">
-              <summary class="d-flex list-unstyled mb-5">Languages</summary>
-                <ul class="d-flex list-unstyled">
-                  <li class="pe-5">
-                    <img src="/images/js.png" alt="" />
-                    <p>Javascript</p>
-                  </li>
-                  <li class="pe-5 me-4">
-                    <img src="/images/html.png" alt="" />
-                    <p>HTML</p>
-                  </li>
-                  <li>
-                    <img src="/images/css.png" alt="" />
-                    <p>CSS</p>
-                  </li>
-                </ul>
-              <details class="accord">
-                <summary class="d-flex list-unstyled mb-5">Frameworks</summary>
-                <ul class="accord"></ul>
-              </details>
-              <details class="accord">
-                <summary class="d-flex list-unstyled">Skills</summary>
-                <ul class="accord"></ul>
-              </details>
+        <div class="flex-grow-1">
+            <div class="accordion accordion-flush" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Languages
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                            <ul class="d-flex list-unstyled lang">
+                            <li class="ps-3 pe-5 py-4 me-4 bg-light rounded-3 lang-item">
+                              <img src="/images/js.png" alt="" />
+                              <p >Javascript</p>
+                            </li>
+                            <li class="ps-3 pe-5 py-4 me-4 bg-light rounded-3 lang-item">
+                              <img src="/images/html.png" alt="" />
+                              <p >HTML</p>
+                            </li>
+                            <li  class="ps-3 pe-5 py-4 bg-light rounded-3 lang-item">
+                              <img src="/images/css.png" alt="" />
+                              <p >CSS</p>
+                            </li>
+                          </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Frameworks
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Skill
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                
+              </div>
+            
             </div>
           </div>
         </div>
+          
+        
       </section>
       <section class="contact d-flex justify-content-center align-items-center flex-column" id="Contact-section">
         <div class="contact-inner">

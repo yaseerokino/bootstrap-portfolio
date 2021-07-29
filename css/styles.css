@@ -96,16 +96,9 @@ h6 {
 
 /* About section */
 .about {
-  padding: 114px 24px;
+  padding: 114px 142px;
   background-color: var(--neutral-0);
   border-top-right-radius: 90px;
-}
-.about {
-  width: 100%;
-  padding: 225px 260px 225px 260px;
-  background-color: #fff;
-  /* margin-right: auto;
-  margin-left: auto; */
 }
 
 .about h2 {
@@ -114,15 +107,6 @@ h6 {
 }
 .about p {
   font-size: 16px;
-  line-height: 24px;
-}
-
-.about .container-fluid {
-  width: 70%;
-}
-
-summary {
-  font-size: 20px;
   line-height: 24px;
 }
 
@@ -167,6 +151,22 @@ summary {
 
   .contact-inner {
     width: 100%;
+  }
+
+  .about {
+    padding: 114px 24px;
+    flex-wrap: wrap !important;
+  }
+
+  .lang {
+    display: block !important;
+  }
+
+  .lang-item {
+    display: flex;
+    margin-bottom: 12px;
+    width: 100%;
+    align-items: center;
   }
 
   .contact {
